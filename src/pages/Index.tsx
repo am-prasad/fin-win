@@ -4,6 +4,7 @@ import { VoiceInterface } from "@/components/VoiceInterface";
 import { FinancialDashboard } from "@/components/FinancialDashboard";
 import { ChatInterface } from "@/components/ChatInterface";
 import { InsightCards } from "@/components/InsightCards";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { useState } from "react";
 
 const Index = () => {
@@ -34,6 +35,10 @@ const Index = () => {
               <p className="text-sm text-muted-foreground">
                 Voice-powered AI financial insights and management
               </p>
+            </div>
+            {/* Theme Toggle */}
+            <div className="flex items-center space-x-2">
+              <ThemeToggle />
             </div>
           </header>
 
