@@ -5,6 +5,7 @@ import { FinancialDashboard } from "@/components/FinancialDashboard";
 import { ChatInterface } from "@/components/ChatInterface";
 import { InsightCards } from "@/components/InsightCards";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { ScrollProgressBar } from "@/components/ScrollProgressBar";
 import { useState } from "react";
 
 const Index = () => {
@@ -21,6 +22,9 @@ const Index = () => {
 
   return (
     <SidebarProvider>
+      {/* Scroll Progress Bar */}
+      <ScrollProgressBar />
+      
       <div className="min-h-screen w-full flex bg-gradient-subtle">
         <AppSidebar />
         

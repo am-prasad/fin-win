@@ -1,6 +1,7 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { ScrollProgressBar } from "@/components/ScrollProgressBar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -31,6 +32,9 @@ const Simulations = () => {
 
   return (
     <SidebarProvider>
+      {/* Scroll Progress Bar */}
+      <ScrollProgressBar />
+      
       <div className="min-h-screen w-full flex bg-gradient-subtle">
         <AppSidebar />
         
