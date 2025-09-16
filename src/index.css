@@ -7,8 +7,8 @@
 @layer base {
   :root {
     /* Financial Brand Colors */
-    --background: 248 250 252;
-    --foreground: 224 71% 4%;
+    --background: 188 250 252;
+    --foreground: 0 71% 4%;
     
     --card: 0 0% 100%;
     --card-foreground: 224 71% 4%;
@@ -89,7 +89,7 @@
 
   .dark {
     /* Financial Dark Mode */
-    --background: 224 71% 4%;
+    --background: 0 71% 4%;
     --foreground: 0 0% 98%;
     
     --card: 224 71% 6%;
